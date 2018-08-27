@@ -330,9 +330,6 @@ plot(TMAX~NewDate, climate_data[1:1835,], ty='l')
 %plot(TMAX~NewDate, LosAngeles, ty='l')
 
 
-<<echo = T, results = 'hide' >>=
-#maunaloa$average
-@
 
 to dump the average CO$_2$ concentrations readings onto your screen as a vector. You should see some ~627 observations, depending on how recent the data have been uploaded. So, the dollar symbol is used to drill into the data frame vectors.  And when you look at the \texttt{str()} function again, you will see these dollar signs again.
 

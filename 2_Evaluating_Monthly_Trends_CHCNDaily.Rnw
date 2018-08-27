@@ -8,7 +8,7 @@
   linkcolor  = black
 }
 
-\title{SOP 86: Evaluating Monthly Trends using CHCN-Daily}
+\title{Evaluating Monthly Trends using CHCN-Daily}
 \author{Marc Los Huertos}
 
 % Setting up the margins, etc for R
@@ -19,8 +19,9 @@ rm(list = ls())
 
 <<echo=FALSE>>=
 # Importing Scripts
-source("../Custom_Code/CSV_import-fun.R")
-climate_data <- CSV_import("/home/CAMPUS/mwl04747/github/Climate_Change_Narratives/Data/MLH/Thailand_GHCND:TH000048456.csv")
+source("CSV_import-fun.R")
+climate_data <- CSV_import("Singapore_ClimateData.csv")
+#climate_data <- read.csv("Singapore_ClimateData.csv")
 @
 
 \begin{document}
